@@ -2,7 +2,7 @@ PODS:
   - MBProgressHUD (1.2.0)
   - WSSProgressHUD (0.0.4):
     - MBProgressHUD
-  - WSSVideoCompression (0.0.1)
+  - WSSVideoCompression (0.0.2)
 
 DEPENDENCIES:
   - WSSProgressHUD
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   WSSProgressHUD: 87be0f23fc1c256bb78ea23cda48d1b0f4c8566d
-  WSSVideoCompression: 0a239debc08811a04f0e8a1e04f0614bfcab95d4
+  WSSVideoCompression: cf52aab274689c30e9ea6da66a2a2c4ca6f86c3e
 
 PODFILE CHECKSUM: a6ecda2f3528a1df2d1048e8abcdb1661282382b
 
