@@ -1,0 +1,27 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - WSSProgressHUD (0.0.4):
+    - MBProgressHUD
+  - WSSVideoCompression (0.0.1)
+
+DEPENDENCIES:
+  - WSSProgressHUD
+  - WSSVideoCompression (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - WSSProgressHUD
+
+EXTERNAL SOURCES:
+  WSSVideoCompression:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  WSSProgressHUD: 87be0f23fc1c256bb78ea23cda48d1b0f4c8566d
+  WSSVideoCompression: 0a239debc08811a04f0e8a1e04f0614bfcab95d4
+
+PODFILE CHECKSUM: a6ecda2f3528a1df2d1048e8abcdb1661282382b
+
+COCOAPODS: 1.8.3

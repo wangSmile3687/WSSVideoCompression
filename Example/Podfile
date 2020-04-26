@@ -1,0 +1,14 @@
+
+platform :ios, '8.0'
+
+target 'WSSVideoCompression_Example' do
+  pod 'WSSVideoCompression', :path => '../'
+
+  pod 'WSSProgressHUD'
+  
+  target 'WSSVideoCompression_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

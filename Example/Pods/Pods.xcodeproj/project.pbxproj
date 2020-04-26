@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C1DE828B365661FB3043966E3ACE78 /* WSSVideoCompression-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C893F5234A77BDD7BD74F2024403FF26 /* WSSVideoCompression-dummy.m */; };
+		60EF6248061C555F8981706CF3D658FC /* WSSProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B44B8E76352391D21AEDD98C5DE026A2 /* WSSProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77D2BE38EFBC5D5A5CB20003A666ED64 /* Pods-WSSVideoCompression_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FF462AEAC66A6C42BA2793C1D25501 /* Pods-WSSVideoCompression_Tests-dummy.m */; };
+		87419775DDA6CC489402ADA1FE500678 /* WSSVideoCompression.h in Headers */ = {isa = PBXBuildFile; fileRef = 035FD879B58DF9A6A022992523B0048D /* WSSVideoCompression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93D1AA801705E7E2C0A99797265BAF88 /* WSSVideoCompression.m in Sources */ = {isa = PBXBuildFile; fileRef = D78EB2D58C607D0C59CDC415EA32E085 /* WSSVideoCompression.m */; };
+		C564C8D042998164475E13AD54B0A294 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EACAA6C8D4903C4A9AA374EDBDCE1F /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7FD66D3D320095B45AD9D39EF1B858B /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B826FDBE564A35AF36CD574379BA9CB /* MBProgressHUD-dummy.m */; };
+		D6438BA4F863AE0A7891F212EE3C06D0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3778C32B94018DA671C78A47E4C10A27 /* MBProgressHUD.m */; };
+		DF55D2237D7D5CB0ECE21C35C33EB7A0 /* WSSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDF27EF8EE4D7376FBF1974A7BA417D /* WSSProgressHUD.m */; };
+		F30A107FA0175246DA2FA6EA6FDFFA2B /* Pods-WSSVideoCompression_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8ACD2106CE6F60F6FCD97F34A71DDA /* Pods-WSSVideoCompression_Example-dummy.m */; };
+		F913760E042F5EB7C7A5E2AB0AD45E5F /* WSSProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D20DEB3DBA39A78BE2C90114E06A87 /* WSSProgressHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C773B8DF34C31FC6F8668C98FFA1262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		B4FC148F75556EB0BAD27B5DD340A682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		BDAFA89EA664006B18D0E2915C26E040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B424EA7D2486E9267F24707175E657D6;
+			remoteInfo = WSSProgressHUD;
+		};
+		C688044E80B63FBA02DB980E5D7CDAD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3F654549165E7388218CCE457DC32B;
+			remoteInfo = WSSVideoCompression;
+		};
+		ED283C1BDCA84AFC2906794ACCCBFE3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B58B7C98E61D8FA2B8ABE2F8D4ACFB;
+			remoteInfo = "Pods-WSSVideoCompression_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035FD879B58DF9A6A022992523B0048D /* WSSVideoCompression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSVideoCompression.h; path = WSSVideoCompression/Classes/WSSVideoCompression.h; sourceTree = "<group>"; };
+		1000F20A0A2654A174ED833B124D70B4 /* Pods-WSSVideoCompression_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSSVideoCompression_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1699EEFAEEE95C4FD346D454E60A6BB5 /* libWSSProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWSSProgressHUD.a; path = libWSSProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D20DEB3DBA39A78BE2C90114E06A87 /* WSSProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSSProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		32E8C157F88E3293726FFACFA411E310 /* libPods-WSSVideoCompression_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WSSVideoCompression_Example.a"; path = "libPods-WSSVideoCompression_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3778C32B94018DA671C78A47E4C10A27 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		411708073CC698A789B6852AAE2E58D9 /* WSSProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSSProgressHUD.xcconfig; sourceTree = "<group>"; };
+		416B9452ECD1115CB11911799736878E /* Pods-WSSVideoCompression_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSSVideoCompression_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B826FDBE564A35AF36CD574379BA9CB /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		52539588623FCD28165503E7A6B58BB7 /* Pods-WSSVideoCompression_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSSVideoCompression_Example.release.xcconfig"; sourceTree = "<group>"; };
+		57D5FE47701AEF05FEC7B7C22F2E59E6 /* Pods-WSSVideoCompression_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSSVideoCompression_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		612D3FFDEF51BF6F3D4371D1E768A4C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		68C7E40BB498B879CECF4D6CAB947F3C /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		701FF6A94751A9D4733E0E7F6727544D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7DDF27EF8EE4D7376FBF1974A7BA417D /* WSSProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSProgressHUD.m; path = WSSProgressHUD/Classes/WSSProgressHUD.m; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB3CB4EAD2533A35CD2E89EE5F5544C /* WSSProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSSProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		93FE770695C75554947BD3C7FD7C41C0 /* Pods-WSSVideoCompression_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSSVideoCompression_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95A6D9D0767BABE6587C32F7304F6B11 /* WSSVideoCompression-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSSVideoCompression-prefix.pch"; sourceTree = "<group>"; };
+		9739C4F0D11638EC33FF50624F9F7D83 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FA0BCB9D9E6432CEC7A9C264254E3D8 /* WSSVideoCompression.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WSSVideoCompression.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B44B8E76352391D21AEDD98C5DE026A2 /* WSSProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSProgressHUD.h; path = WSSProgressHUD/Classes/WSSProgressHUD.h; sourceTree = "<group>"; };
+		C57D5DEF0121346195FB9829F76B3FF3 /* Pods-WSSVideoCompression_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSSVideoCompression_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C6835079BB3F648C61A27AAACE615F68 /* libPods-WSSVideoCompression_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WSSVideoCompression_Tests.a"; path = "libPods-WSSVideoCompression_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C893F5234A77BDD7BD74F2024403FF26 /* WSSVideoCompression-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSSVideoCompression-dummy.m"; sourceTree = "<group>"; };
+		D696ECFFD8FA616846B7A867C9590367 /* WSSVideoCompression.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSSVideoCompression.xcconfig; sourceTree = "<group>"; };
+		D78EB2D58C607D0C59CDC415EA32E085 /* WSSVideoCompression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSVideoCompression.m; path = WSSVideoCompression/Classes/WSSVideoCompression.m; sourceTree = "<group>"; };
+		DB8ACD2106CE6F60F6FCD97F34A71DDA /* Pods-WSSVideoCompression_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSSVideoCompression_Example-dummy.m"; sourceTree = "<group>"; };
+		E4FF462AEAC66A6C42BA2793C1D25501 /* Pods-WSSVideoCompression_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSSVideoCompression_Tests-dummy.m"; sourceTree = "<group>"; };
+		E8EACAA6C8D4903C4A9AA374EDBDCE1F /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F6195A96A6C955691E80C5BD73A62C83 /* libWSSVideoCompression.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWSSVideoCompression.a; path = libWSSVideoCompression.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC2FCF9BE3FE53FC83D4D7E3781350A /* Pods-WSSVideoCompression_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSSVideoCompression_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF45FBF47555A1F7D25AFD182FCFE413 /* Pods-WSSVideoCompression_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSSVideoCompression_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07BA3781E870DDD2608E9FA731ABBCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC8CD229F7A82671B01014D46643A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15D46E09D739462E0CD0EFB69607A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF408FE06D46B730D82DC8EFFBD7C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBC7FE987FB53FBB71A9E7155D9E871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003FA3376E67CAB6ECC10D1DD3F6C2CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				411708073CC698A789B6852AAE2E58D9 /* WSSProgressHUD.xcconfig */,
+				17D20DEB3DBA39A78BE2C90114E06A87 /* WSSProgressHUD-dummy.m */,
+				8BB3CB4EAD2533A35CD2E89EE5F5544C /* WSSProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WSSProgressHUD";
+			sourceTree = "<group>";
+		};
+		04AE28709E143928C543895A0F11B504 /* WSSVideoCompression */ = {
+			isa = PBXGroup;
+			children = (
+				035FD879B58DF9A6A022992523B0048D /* WSSVideoCompression.h */,
+				D78EB2D58C607D0C59CDC415EA32E085 /* WSSVideoCompression.m */,
+				3970D5C8C825D4C73B33604575771B5E /* Pod */,
+				5F9CB524936A0CC4DF03821AFFFFC274 /* Support Files */,
+			);
+			name = WSSVideoCompression;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		04E019DB2E76EAA2EFB616BB30779239 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04AE28709E143928C543895A0F11B504 /* WSSVideoCompression */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		085C9FADD02B58B2B0105A2FBB6ED27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */,
+				32E8C157F88E3293726FFACFA411E310 /* libPods-WSSVideoCompression_Example.a */,
+				C6835079BB3F648C61A27AAACE615F68 /* libPods-WSSVideoCompression_Tests.a */,
+				1699EEFAEEE95C4FD346D454E60A6BB5 /* libWSSProgressHUD.a */,
+				F6195A96A6C955691E80C5BD73A62C83 /* libWSSVideoCompression.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1163DF75D040093F4A26EED8D854C761 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				764CE37ADD44964C99B8DC15525BDEE5 /* MBProgressHUD */,
+				76586CEAB9D6EB0775FD11397F0B1D9B /* WSSProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		334EF6AD4BBE6198BD2FBF7E837FEA8C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2D7C60A35B2E01E4CDD088DB88D099 /* Pods-WSSVideoCompression_Example */,
+				6470D5C72BC6C5CA96CDC9ACF5ED3D4B /* Pods-WSSVideoCompression_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3970D5C8C825D4C73B33604575771B5E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				612D3FFDEF51BF6F3D4371D1E768A4C6 /* LICENSE */,
+				701FF6A94751A9D4733E0E7F6727544D /* README.md */,
+				9FA0BCB9D9E6432CEC7A9C264254E3D8 /* WSSVideoCompression.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5F2D7C60A35B2E01E4CDD088DB88D099 /* Pods-WSSVideoCompression_Example */ = {
+			isa = PBXGroup;
+			children = (
+				93FE770695C75554947BD3C7FD7C41C0 /* Pods-WSSVideoCompression_Example-acknowledgements.markdown */,
+				57D5FE47701AEF05FEC7B7C22F2E59E6 /* Pods-WSSVideoCompression_Example-acknowledgements.plist */,
+				DB8ACD2106CE6F60F6FCD97F34A71DDA /* Pods-WSSVideoCompression_Example-dummy.m */,
+				FF45FBF47555A1F7D25AFD182FCFE413 /* Pods-WSSVideoCompression_Example.debug.xcconfig */,
+				52539588623FCD28165503E7A6B58BB7 /* Pods-WSSVideoCompression_Example.release.xcconfig */,
+			);
+			name = "Pods-WSSVideoCompression_Example";
+			path = "Target Support Files/Pods-WSSVideoCompression_Example";
+			sourceTree = "<group>";
+		};
+		5F9CB524936A0CC4DF03821AFFFFC274 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D696ECFFD8FA616846B7A867C9590367 /* WSSVideoCompression.xcconfig */,
+				C893F5234A77BDD7BD74F2024403FF26 /* WSSVideoCompression-dummy.m */,
+				95A6D9D0767BABE6587C32F7304F6B11 /* WSSVideoCompression-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WSSVideoCompression";
+			sourceTree = "<group>";
+		};
+		6470D5C72BC6C5CA96CDC9ACF5ED3D4B /* Pods-WSSVideoCompression_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1000F20A0A2654A174ED833B124D70B4 /* Pods-WSSVideoCompression_Tests-acknowledgements.markdown */,
+				FDC2FCF9BE3FE53FC83D4D7E3781350A /* Pods-WSSVideoCompression_Tests-acknowledgements.plist */,
+				E4FF462AEAC66A6C42BA2793C1D25501 /* Pods-WSSVideoCompression_Tests-dummy.m */,
+				416B9452ECD1115CB11911799736878E /* Pods-WSSVideoCompression_Tests.debug.xcconfig */,
+				C57D5DEF0121346195FB9829F76B3FF3 /* Pods-WSSVideoCompression_Tests.release.xcconfig */,
+			);
+			name = "Pods-WSSVideoCompression_Tests";
+			path = "Target Support Files/Pods-WSSVideoCompression_Tests";
+			sourceTree = "<group>";
+		};
+		764CE37ADD44964C99B8DC15525BDEE5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E8EACAA6C8D4903C4A9AA374EDBDCE1F /* MBProgressHUD.h */,
+				3778C32B94018DA671C78A47E4C10A27 /* MBProgressHUD.m */,
+				F13EF4CF6771B161C2869CA880C50E03 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		76586CEAB9D6EB0775FD11397F0B1D9B /* WSSProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B44B8E76352391D21AEDD98C5DE026A2 /* WSSProgressHUD.h */,
+				7DDF27EF8EE4D7376FBF1974A7BA417D /* WSSProgressHUD.m */,
+				003FA3376E67CAB6ECC10D1DD3F6C2CC /* Support Files */,
+			);
+			name = WSSProgressHUD;
+			path = WSSProgressHUD;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				04E019DB2E76EAA2EFB616BB30779239 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1163DF75D040093F4A26EED8D854C761 /* Pods */,
+				085C9FADD02B58B2B0105A2FBB6ED27F /* Products */,
+				334EF6AD4BBE6198BD2FBF7E837FEA8C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13EF4CF6771B161C2869CA880C50E03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68C7E40BB498B879CECF4D6CAB947F3C /* MBProgressHUD.xcconfig */,
+				4B826FDBE564A35AF36CD574379BA9CB /* MBProgressHUD-dummy.m */,
+				9739C4F0D11638EC33FF50624F9F7D83 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0138651B2FAFED46C164C37346E7A0DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10EFC21D31057972CD0AD8815C63AFBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE63BE2B85B12A17612B631D117F523 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EF6248061C555F8981706CF3D658FC /* WSSProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A5B4CB8FFCC34C9E59E8BF1A9438B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87419775DDA6CC489402ADA1FE500678 /* WSSVideoCompression.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69A1D7D9933B5C2BFB41B06C24EC219 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C564C8D042998164475E13AD54B0A294 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46B58B7C98E61D8FA2B8ABE2F8D4ACFB /* Pods-WSSVideoCompression_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3375CED0EE8C8E4468E2426217C569 /* Build configuration list for PBXNativeTarget "Pods-WSSVideoCompression_Example" */;
+			buildPhases = (
+				10EFC21D31057972CD0AD8815C63AFBD /* Headers */,
+				1E7B8370943CE32EB3916D8F3A384648 /* Sources */,
+				07BA3781E870DDD2608E9FA731ABBCB1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA688D4F6F69A6B014F614C56BA1F2E /* PBXTargetDependency */,
+				D78FD958A3A4F90D15ADE3AC5DF37773 /* PBXTargetDependency */,
+				9E664B8EF0CA76208C526B695FB79A48 /* PBXTargetDependency */,
+			);
+			name = "Pods-WSSVideoCompression_Example";
+			productName = "Pods-WSSVideoCompression_Example";
+			productReference = 32E8C157F88E3293726FFACFA411E310 /* libPods-WSSVideoCompression_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20217F7F18136BEC6503B8147352D3E3 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				F69A1D7D9933B5C2BFB41B06C24EC219 /* Headers */,
+				12490B6EBA14F6030F9CBD9575807097 /* Sources */,
+				DCBC7FE987FB53FBB71A9E7155D9E871 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92CA4AEB055468AF998B5DA85FEE6DEC /* Pods-WSSVideoCompression_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6094790F9C86E27D880CC36F1FBA17 /* Build configuration list for PBXNativeTarget "Pods-WSSVideoCompression_Tests" */;
+			buildPhases = (
+				0138651B2FAFED46C164C37346E7A0DD /* Headers */,
+				8F4BAD6507D9F4079EE95CA9D5C93F52 /* Sources */,
+				CAF408FE06D46B730D82DC8EFFBD7C5B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0929AE6A90D0F471A4B43D17D8FEBF /* PBXTargetDependency */,
+			);
+			name = "Pods-WSSVideoCompression_Tests";
+			productName = "Pods-WSSVideoCompression_Tests";
+			productReference = C6835079BB3F648C61A27AAACE615F68 /* libPods-WSSVideoCompression_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B424EA7D2486E9267F24707175E657D6 /* WSSProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1364D949DACACF80A2F506FD921F84A /* Build configuration list for PBXNativeTarget "WSSProgressHUD" */;
+			buildPhases = (
+				6DE63BE2B85B12A17612B631D117F523 /* Headers */,
+				8113384243CA7CEF4C96ED55712CD073 /* Sources */,
+				5EC8CD229F7A82671B01014D46643A35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2AC436E1D389EEB5163BB57B3F9FEDE /* PBXTargetDependency */,
+			);
+			name = WSSProgressHUD;
+			productName = WSSProgressHUD;
+			productReference = 1699EEFAEEE95C4FD346D454E60A6BB5 /* libWSSProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA3F654549165E7388218CCE457DC32B /* WSSVideoCompression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06433F4E2503B0FD8065E6A37F22F618 /* Build configuration list for PBXNativeTarget "WSSVideoCompression" */;
+			buildPhases = (
+				98A5B4CB8FFCC34C9E59E8BF1A9438B0 /* Headers */,
+				700E3D8DE98B4FBB9B52B7CF7922A820 /* Sources */,
+				C15D46E09D739462E0CD0EFB69607A72 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSSVideoCompression;
+			productName = WSSVideoCompression;
+			productReference = F6195A96A6C955691E80C5BD73A62C83 /* libWSSVideoCompression.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 085C9FADD02B58B2B0105A2FBB6ED27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				46B58B7C98E61D8FA2B8ABE2F8D4ACFB /* Pods-WSSVideoCompression_Example */,
+				92CA4AEB055468AF998B5DA85FEE6DEC /* Pods-WSSVideoCompression_Tests */,
+				B424EA7D2486E9267F24707175E657D6 /* WSSProgressHUD */,
+				FA3F654549165E7388218CCE457DC32B /* WSSVideoCompression */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12490B6EBA14F6030F9CBD9575807097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FD66D3D320095B45AD9D39EF1B858B /* MBProgressHUD-dummy.m in Sources */,
+				D6438BA4F863AE0A7891F212EE3C06D0 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7B8370943CE32EB3916D8F3A384648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30A107FA0175246DA2FA6EA6FDFFA2B /* Pods-WSSVideoCompression_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700E3D8DE98B4FBB9B52B7CF7922A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C1DE828B365661FB3043966E3ACE78 /* WSSVideoCompression-dummy.m in Sources */,
+				93D1AA801705E7E2C0A99797265BAF88 /* WSSVideoCompression.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8113384243CA7CEF4C96ED55712CD073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F913760E042F5EB7C7A5E2AB0AD45E5F /* WSSProgressHUD-dummy.m in Sources */,
+				DF55D2237D7D5CB0ECE21C35C33EB7A0 /* WSSProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4BAD6507D9F4079EE95CA9D5C93F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D2BE38EFBC5D5A5CB20003A666ED64 /* Pods-WSSVideoCompression_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B0929AE6A90D0F471A4B43D17D8FEBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WSSVideoCompression_Example";
+			target = 46B58B7C98E61D8FA2B8ABE2F8D4ACFB /* Pods-WSSVideoCompression_Example */;
+			targetProxy = ED283C1BDCA84AFC2906794ACCCBFE3D /* PBXContainerItemProxy */;
+		};
+		9AA688D4F6F69A6B014F614C56BA1F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 6C773B8DF34C31FC6F8668C98FFA1262 /* PBXContainerItemProxy */;
+		};
+		9E664B8EF0CA76208C526B695FB79A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WSSVideoCompression;
+			target = FA3F654549165E7388218CCE457DC32B /* WSSVideoCompression */;
+			targetProxy = C688044E80B63FBA02DB980E5D7CDAD6 /* PBXContainerItemProxy */;
+		};
+		B2AC436E1D389EEB5163BB57B3F9FEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = B4FC148F75556EB0BAD27B5DD340A682 /* PBXContainerItemProxy */;
+		};
+		D78FD958A3A4F90D15ADE3AC5DF37773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WSSProgressHUD;
+			target = B424EA7D2486E9267F24707175E657D6 /* WSSProgressHUD */;
+			targetProxy = BDAFA89EA664006B18D0E2915C26E040 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26C59DC06580C436F1CE2838544A672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 411708073CC698A789B6852AAE2E58D9 /* WSSProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WSSProgressHUD/WSSProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WSSProgressHUD;
+				PRODUCT_NAME = WSSProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45B78EC7646175A15F2E2922EC6EEBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 411708073CC698A789B6852AAE2E58D9 /* WSSProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WSSProgressHUD/WSSProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WSSProgressHUD;
+				PRODUCT_NAME = WSSProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		527C9E86C41A8D079E89AC7904AE3C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF45FBF47555A1F7D25AFD182FCFE413 /* Pods-WSSVideoCompression_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E7C26F35AF7C2018FDF5AF3348982C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52539588623FCD28165503E7A6B58BB7 /* Pods-WSSVideoCompression_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		750D96E31BDBDCA881138D14D692309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C7E40BB498B879CECF4D6CAB947F3C /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C5A2DF7E80973BACEB7EBE7F799FE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416B9452ECD1115CB11911799736878E /* Pods-WSSVideoCompression_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC66FA58F03BA524D88742B4E48C036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57D5DEF0121346195FB9829F76B3FF3 /* Pods-WSSVideoCompression_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8DBB713E9979365EF6873D60094E1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D696ECFFD8FA616846B7A867C9590367 /* WSSVideoCompression.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WSSVideoCompression/WSSVideoCompression-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WSSVideoCompression;
+				PRODUCT_NAME = WSSVideoCompression;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF4DED2DECFC57A59B8676171290B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C7E40BB498B879CECF4D6CAB947F3C /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE4B49344BED8EF3859C7764179EDABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D696ECFFD8FA616846B7A867C9590367 /* WSSVideoCompression.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WSSVideoCompression/WSSVideoCompression-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WSSVideoCompression;
+				PRODUCT_NAME = WSSVideoCompression;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06433F4E2503B0FD8065E6A37F22F618 /* Build configuration list for PBXNativeTarget "WSSVideoCompression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DBB713E9979365EF6873D60094E1A5 /* Debug */,
+				FE4B49344BED8EF3859C7764179EDABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20217F7F18136BEC6503B8147352D3E3 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750D96E31BDBDCA881138D14D692309F /* Debug */,
+				FBF4DED2DECFC57A59B8676171290B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1364D949DACACF80A2F506FD921F84A /* Build configuration list for PBXNativeTarget "WSSProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B78EC7646175A15F2E2922EC6EEBCA /* Debug */,
+				26C59DC06580C436F1CE2838544A672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6094790F9C86E27D880CC36F1FBA17 /* Build configuration list for PBXNativeTarget "Pods-WSSVideoCompression_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5A2DF7E80973BACEB7EBE7F799FE0E /* Debug */,
+				BC66FA58F03BA524D88742B4E48C036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3375CED0EE8C8E4468E2426217C569 /* Build configuration list for PBXNativeTarget "Pods-WSSVideoCompression_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527C9E86C41A8D079E89AC7904AE3C61 /* Debug */,
+				6E7C26F35AF7C2018FDF5AF3348982C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

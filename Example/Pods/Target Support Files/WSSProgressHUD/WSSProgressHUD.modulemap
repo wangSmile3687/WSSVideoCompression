@@ -1,0 +1,6 @@
+framework module WSSProgressHUD {
+  umbrella header "WSSProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

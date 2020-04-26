@@ -1,0 +1,6 @@
+framework module WSSVideoCompression {
+  umbrella header "WSSVideoCompression-umbrella.h"
+
+  export *
+  module * { export * }
+}
